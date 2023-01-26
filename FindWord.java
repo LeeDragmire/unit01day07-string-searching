@@ -18,7 +18,8 @@ public class FindWord {
                 int start = newText.lastIndexOf(" ");
                 System.out.println(text.substring(start + 1, ending));
             } else {
-                System.out.println(text.substring(index - 5, index) + letter);
+                int start = text.lastIndexOf(" ");
+                System.out.println(text.substring(start + 1, index) + letter);
             }
             
         }
