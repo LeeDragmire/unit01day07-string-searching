@@ -1,3 +1,4 @@
+// good
 import java.util.Scanner;
 
 public class FindWord {
